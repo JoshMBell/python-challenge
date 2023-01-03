@@ -1,6 +1,7 @@
-import csv 
+import csv
+import os
 
-csv_budget_path = "D:\\Bootcamp\\Assignments\\Challenges\\Module_3\\python-challenge\\PyBank\\Resources\\budget_data.csv"
+csv_budget_path = os.path.join("Resources", "budget_data.csv")
 
 months_count = 0
 total_profit = 0
